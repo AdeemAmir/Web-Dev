@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web-Dev/React/Task%2024/static/css/main.2ae10d8e.css",
+    "main.js": "/Web-Dev/React/Task%2024/static/js/main.ac0a8fbd.js",
+    "index.html": "/Web-Dev/React/Task%2024/index.html",
+    "main.2ae10d8e.css.map": "/Web-Dev/React/Task%2024/static/css/main.2ae10d8e.css.map",
+    "main.ac0a8fbd.js.map": "/Web-Dev/React/Task%2024/static/js/main.ac0a8fbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ae10d8e.css",
+    "static/js/main.ac0a8fbd.js"
+  ]
+}

@@ -1,0 +1,103 @@
+/*STYLE BY ADEEM AMIR*/
+
+html {
+    min-height: 100%;
+}
+
+body {
+--gradient-start: #00fff2;
+--gradient-mid: #00abb1;
+--gradient-end: #00b135;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle at center,
+                color-mix(in srgb, var(--gradient-start) 9%, white),
+                color-mix(in srgb, var(--gradient-mid) 7%, white),
+                color-mix(in srgb, var(--gradient-end) 5%, white)
+                );
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input, select, button {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: linear-gradient(45deg,
+                color-mix(in srgb, var(--gradient-start) 90%, white),
+                color-mix(in srgb, var(--gradient-mid) 50%, white),
+                color-mix(in srgb, var(--gradient-end) 20%, white)
+                );
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: radial-gradient(circle at center,
+                color-mix(in srgb, var(--gradient-start) 9%, white),
+                color-mix(in srgb, var(--gradient-mid) 7%, white),
+                color-mix(in srgb, var(--gradient-end) 5%, white)
+                );
+        }
+        #subjectButtons {
+            display: none;
+            margin-top: 20px;
+        }
+        .watermark {
+            position: fixed;
+            bottom: 10px;
+            right: 28px;
+            font-size: 14px;
+            color: rgba(141, 141, 141, 0.5);
+            pointer-events: none;
+        }
+        #adminButton {
+            width: 15%;
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            padding: 10px;
+            background-color: #5a728b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        #adminButton:hover {
+            background-color: #96b9df;
+        }
+        #output {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #eaeaea;
+            font-size: 34px;
+            color: black;
+            font-family: 'Geogria';
+            height: fit-content;
+            width: 90%;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }

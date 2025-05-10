@@ -1,0 +1,149 @@
+<!-- CODE BY ADEEM AMIR -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 14-16 | Learning JavaScript (271965)</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <div class="watermark">Code by Adeem Amir</div>
+
+    <h1>CHAPTER 12-13: ARRAYS | JAVASCRIPT</h1>
+    <div class="container">
+
+        <div class="question">
+            <h2>Q1. Declare an Empty Array for Student Names</h2>
+            <button onclick="declareEmptyStudentArray()">Answer</button>
+            <div class="output" id="output1"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q2. Declare an Empty Array Using Object Notation</h2>
+            <button onclick="declareEmptyObjectArray()">Answer</button>
+            <div class="output" id="output2"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q3. Declare and Initialize a Strings Array</h2>
+            <button onclick="initializeStringsArray()">Answer</button>
+            <div class="output" id="output3"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q4. Declare and Initialize a Numbers Array</h2>
+            <button onclick="initializeNumbersArray()">Answer</button>
+            <div class="output" id="output4"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q5. Declare and Initialize a Boolean Array</h2>
+            <button onclick="initializeBooleanArray()">Answer</button>
+            <div class="output" id="output5"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q6. Declare and Initialize a Mixed Array</h2>
+            <button onclick="initializeMixedArray()">Answer</button>
+            <div class="output" id="output6"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q7. Education Qualifications in Pakistan</h2>
+            <button onclick="showQualifications()">Answer</button>
+            <div class="output" id="output7"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q8. Store Student Names and Scores</h2>
+            <button onclick="storeStudentScores()">Answer</button>
+            <div class="output" id="output8"></div>
+        </div>
+
+<div class="question">
+    <h2>Q9. Color Names Array Manipulation</h2>
+    <button onclick="showColorManipulation()">Answer</button>
+    <div id="colorManipulationContainer" style="display: none; margin-top: 10px;">
+        <div id="colorArrayContainer" style="max-height: 200px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+            <div class="output" id="colorOutput" style="width: 90%;">Initial Colors: Red, Green, Blue</div>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+            <input type="text" id="colorInput" placeholder="COLOR NAME" style="width: 60%; margin-left: 5px;">
+            <input type="number" id="indexInput" placeholder="INDEX" style="width: 20%; margin-left: 5px; margin-right: 5px;">
+            <input type="number" id="countInput" placeholder="COUNT" style="width: 20%; margin-right: 5px;">
+        </div>
+        
+        <div style="margin-top: 10px; display: flex; justify-content: space-between;">
+         <div>
+            <button onclick="addColorToStart()" class = "q9mod">Add to Start</button> <br>
+            <button onclick="addColorAtIndex()" class = "q9mod">Add to Index</button> <br>
+            <button onclick="addColorToEnd()" class = "q9mod">Add to End</button> <br>
+        </div>
+
+        <div style="margin-top: 40px;">
+            <button onclick="clearColors()" class = "q9mod">Clear</button>
+        </div>
+
+        <div>
+            <button onclick="deleteFirstColor()" class = "q9mod">Remove from Start</button> <br>
+            <button onclick="deleteColorsAtIndex()" class = "q9mod">Remove from Index</button> <br>
+            <button onclick="deleteLastColor()" class = "q9mod">Remove from End</button> <br>
+        </div>
+    </div>
+</div>
+</div>
+
+
+        <div class="question">
+            <h2>Q10. Sort Student Scores</h2>
+            <button onclick="sortStudentScores()">Answer</button>
+            <div class="output" id="output10"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q11. Copy City Names (Spliced Array)</h2>
+            <button onclick="copyCityNames()">Answer</button>
+            <div class="output" id="output11"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q12. Create String from Array</h2>
+            <button onclick="createStringFromArray()">Answer</button>
+            <div class="output" id="output12"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q13. FIFO Array</h2>
+            <button onclick="fifoArray()">Answer</button>
+            <div class="output" id="output13"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q14. LIFO Array</h2>
+            <button onclick="lifoArray()">Answer</button>
+            <div class="output" id="output14"></div>
+        </div>
+
+        <div class="question">
+            <h2>Q15. Phone Manufacturers Dropdown</h2>
+            <button onclick="showPhoneManufacturers()">Answer</button>
+            <div class="output" id="output15">
+            <select id="DispRel" style="display: none;" class="styled-select">
+            <option value="Apple">Apple</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Motorola">Motorola</option>
+            <option value="Nokia">Nokia</option>
+            <option value="Sony">Sony</option>
+            <option value="Haier">Haier</option>
+        </select>
+        </div>
+    </div>
+</div>    
+    <script src=".\script.mjs"></script>
+</body>
+
+</html>

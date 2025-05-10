@@ -1,0 +1,32 @@
+<!-- CODE BY ADEEM AMIR -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Checker</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class='sp_body'>
+    <div class="watermark">Code by Adeem Amir</div>
+
+    <h1 class='sp_h1'>Email Checker</h1>
+    <input class='sp_inp'type="text" id="emailInput" placeholder="Enter your email" />
+    <select class='sp_select' id="methodSelect">
+        <option value="includes">Includes</option>
+        <option value="indexOf">IndexOf</option>
+        <option value="slice">Slice</option>
+        <option value="endsWith">EndsWith</option>
+        <option value="sliceNoReverse">Slice No Reverse</option>
+        <option value="all">All</option>
+    </select>
+    <button class='sp_button' onclick="runEmailCheck()">Check Email</button>
+    <div class='sp_cOutp1' id="cOutp1"></div>
+    
+    <div class="backbutt_loc">
+        <button class='sp_button' onclick="gotoBack()">Back</button>
+        <button class='sp_button' onclick="gotoHome()">Home</button>
+</div>
+    <script src="./script.mjs"></script>
+</body>
+</html>

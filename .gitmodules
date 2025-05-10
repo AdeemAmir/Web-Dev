@@ -1,0 +1,3 @@
+[submodule "JavaScript/CommonJS"]
+	path = JavaScript/CommonJS
+	url = https://github.com/AdeemAmir/CommonJS

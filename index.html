@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Curriculae</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Web Dev Journey</h1>
+        <h1>Adeem Amir (271965) (0123-0228)</h1>
+    </div>
+    <div class="container cont_3fer">
+        <a href="HTML/index.html" class="card">
+            <img src=".\HTML\HTML.jpg" alt="HTML Logo" class="logo">
+            <h2>HTML</h2>
+            <p>HTML is the standard markup language for creating web pages.</p>
+        </a>
+        <a href="CSS/index.html" class="card">
+            <img src=".\CSS\CSS.jpg" alt="CSS Logo" class="logo">
+            <h2>CSS</h2>
+            <p>CSS is a stylesheet language used to describe the presentation of a document.</p>
+        </a>
+        <a href="JavaScript/index.html" class="card">
+            <img src=".\JavaScript\JavaScript.jpg" alt="JavaScript Logo" class="logo">
+            <h2>JavaScript</h2>
+            <p>JavaScript is a programming language that enables interactive web pages.</p>
+        </a>
+        <a href="React/index.html" class="card">
+            <img src=".\React\React.png" alt="React Logo" class="logo">
+            <h2>React</h2>
+            <p>React is a JavaScript library used for building user single-page interfaces.</p>
+        </a>
+    </div>
+    <div class="container">
+    <a href="https://adeemamir.github.io/SMIT-Mini-Hackathon/" class="card cont_slim_ovr"><h1 style='font-family:Comic Sans MS;'>SMIT Mini-Hackathon (HTML & CSS)</h1></a>
+    </div>
+</body>
+</html>
+
+<style>
+body {
+    font-family: "TIMES NEW ROMAN", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background: linear-gradient(135deg, #faf3f0, #fdf6f9, #f5f9ff); */
+    /* background: linear-gradient(135deg, #fafafa, #fdfcfc, #f6f9ff); */
+    background: radial-gradient(circle at center, #fdfcfc, #f6f9ff, #eaeefc);
+
+    margin: 0;
+    padding: 20px 50px 0px 50px;
+}
+
+.header {
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-width: 800px;
+    margin: fit-content;
+    /* background: linear-gradient(135deg, #ffe0e0, #f7d6f5, #e0eaff);     */
+     /* background: linear-gradient(135deg, #ffffff, #f5f7fa); */
+     background: linear-gradient(135deg, #fdfbfb, #f1f4fb, #e9f0ff);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container {
+    display: flex; /* arrange cards horizontally */
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px 0;
+    display: grid;
+    max-width: 1050px;
+}
+
+.cont_3fer {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    /* background: linear-gradient(135deg, #f5d0c5, #fcefe9, #d9c7dd); */
+    /* background: linear-gradient(135deg, #fff9f6, #faf5ff, #f2faff); */
+    /* background: linear-gradient(135deg, #fff5f0, #f3eaff, #eaf6ff); */
+    /* background: linear-gradient(135deg, #ffffff, #f9faff, #fefefe); */
+    background: linear-gradient(135deg, #fdfcfa, #f6f9fb, #f1f3f9);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: black;
+    flex: 1; 
+    margin: 10px 10px; 
+    padding: 30px;
+    /* max-width: 500px; */
+    /* height: 600px; */
+    /*height: 630px;*/
+}
+
+.cont_slim_ovr {
+    height: 3vh;
+    max-width: 1500px;
+    padding: 20px;
+}
+
+.card img {
+    margin-bottom: 20px; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 856px) {
+    .header {
+        margin: auto;
+        width: auto;
+        min-width: 90%;
+    }
+    
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .card {
+        margin: 10px 0; 
+        width: 90%;
+        height: auto;
+    }
+}
+
+    </style>

@@ -1,0 +1,51 @@
+body.html {
+    --gradient-start: #f05a28;
+    --gradient-mid: #f79c42;
+    --gradient-end: #f8a425;
+}
+
+body.css {
+    --gradient-start: #2965f1;
+    --gradient-mid: #5e77e7;
+    --gradient-end: #00b7ff;
+}
+
+body.js {
+    --gradient-start: #f7df1e;
+    --gradient-mid: #ffce47;
+    --gradient-end: #f7a800;
+}
+
+body.react {
+    --gradient-start: #61dafb;
+    --gradient-mid: #4fa3e0;
+    --gradient-end: #1c87d9;
+}
+
+body {
+    background: radial-gradient(circle at center,
+    color-mix(in srgb, var(--gradient-start) 05%, #f0f0f0),
+    color-mix(in srgb, var(--gradient-mid) 10%, #f5faff),
+    color-mix(in srgb, var(--gradient-end) 20%, #f7f7ff)
+);
+}
+
+h1, h2, p {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.task-list li a {
+    background: linear-gradient(45deg,
+        color-mix(in srgb, var(--gradient-start) 20%, #000),
+        color-mix(in srgb, var(--gradient-mid) 90%, #000),
+        color-mix(in srgb, var(--gradient-end) 20%, #000)
+    );
+    background-size: 13vw 100%;
+    background-position: left center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
